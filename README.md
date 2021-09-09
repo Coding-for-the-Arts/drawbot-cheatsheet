@@ -58,7 +58,7 @@
 
 ## Rechnen mit Strings
 
-`'la' 'la'` Output: lala
+`'la' + 'la'` Output: lala
     
 `3 * 'la'` Output: lalala
 
