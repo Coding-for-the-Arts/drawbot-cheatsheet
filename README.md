@@ -8,9 +8,9 @@
 
 `cmd alt 6` Zeile einrücken
 
-`cmd alt 8` Zeile deaktivieren
+`cmd alt 8` Zeile aktivieren
 
-`cmd alt 9` Zeile aktivieren
+`cmd alt 9` Zeile deaktivieren («auskommentieren»)
 
 `cmd Pfeiltaste` Wert ausgewählter Zahl ändern
 
