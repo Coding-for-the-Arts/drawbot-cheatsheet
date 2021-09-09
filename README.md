@@ -40,6 +40,18 @@
 
 `%` Modulo (Rest der Division)
 
+## Datentypen
+
+`3` Integer (Ganze Zahlen)
+
+`3.5` Float (Fliesskommazahl)
+
+`'Anna'` String (Zeichenkette)
+
+`True` `False` Boolean (Wahr oder Falsch)
+
+`['Anna', 'Paul']` List (Beliebige lange Liste) 
+
 ## Nützliche Python-Funktionen
 
 `print()` Output in Konsolen-Fenster schreiben
