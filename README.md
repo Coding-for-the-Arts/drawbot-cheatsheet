@@ -16,7 +16,12 @@
 
 ## Kommentare
 
-`#Das ist ein Kommentar`
+`# Das ist ein Kommentar`
+
+    """
+    Und das ist ein mehrzeiliger Kommentar.
+    Wenn es mal etwas mehr sein soll.
+    """
 
 ## Variablen
 
