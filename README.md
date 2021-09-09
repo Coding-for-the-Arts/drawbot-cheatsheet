@@ -14,6 +14,10 @@
 
 `cmd Pfeiltaste` Wert ausgewählter Zahl ändern
 
+## Kommentare
+
+`#Das ist ein Kommentar`
+
 ## Variablen
 
 `foo = 12` Wertzuweisung
@@ -25,6 +29,18 @@
 `foo = foo - 1` Wert in Variable um 1 reduzieren
 
 `foo -= 1` Wert in Variable um 1 reduzieren (Kurzschreibweise)
+
+## Datentypen
+
+`3` Integer (Ganze Zahlen)
+
+`3.5` Float (Fliesskommazahl)
+
+`'Anna'` String (Zeichenkette)
+
+`True` `False` Boolean (Wahr oder Falsch)
+
+`['Anna', 'Paul']` List (Beliebige lange Liste) 
 
 ## Rechnen
 
@@ -40,17 +56,35 @@
 
 `%` Modulo (Rest der Division)
 
-## Datentypen
+## Rechnen mit Strings
 
-`3` Integer (Ganze Zahlen)
+`'la' 'la'` Output: lala
+    
+`3 * 'la'` Output: lalala
 
-`3.5` Float (Fliesskommazahl)
+`3 * 'la' + 'li` Output: lalalali
 
-`'Anna'` String (Zeichenkette)
+## Vergleichsoperatoren 
 
-`True` `False` Boolean (Wahr oder Falsch)
+`a == b` a ist gleich b
 
-`['Anna', 'Paul']` List (Beliebige lange Liste) 
+`a != b` a ist ungleich b
+
+`a > b` a ist grösser als b
+
+`a >= b` a ist grösser gleich b
+
+`a < b` a ist kleiner als b
+
+`a <= b` a ist kleiner gleich als b
+
+Vergleichsoperatoren eignen sich um eine Bedinung zu formulieren (bsp. für ein if-Statement): 
+
+    a = 2
+    b = 3
+    if a < b: 
+        print(a, 'ist kleiner als', b)
+
 
 ## Nützliche Python-Funktionen
 
@@ -97,14 +131,31 @@
 
 ## Schleifen
 
+Die for-Schleife durchläuft eine vorgegebene Liste. Mittels der Iterationsvariable kann auf die einzelnen Elemente zugegriffen werden. 
+
     for text in ["lorem", "ipsum"]:
         print(text)
+        
+Output: lorem ipsum 
 
-    for var in range(10):
-        print(var)
+    for i in range(5):
+        print(i)
 
+Output: 0 1 2 3 4 
 
 ## Bedingungen
+Die if-Anweisung wird benutzt, um eine Bedingung zu überprüfen. Falls diese Bedingung erfüllt ist, wird ein Block von Anweisungen ausgeführt (der so genannte if-Block), andernfalls wird ein anderer Block von Anweisungen ausgeführt (elif oder else)
+
+Allgemeine Form:
+
+    if bedingung1:
+        anweisungen1
+    elif bedingung2:
+        anweisungen2
+    else:
+        anweisungen3    
+
+Beispiel:
 
     if random() > 0.66:
         print("Schere")
