@@ -4,13 +4,9 @@
 
 `cmd r` Programm ausführen
 
-`cmd alt 5` Zeile ausrücken
+`cmd alt 5` Zeile ausrücken,  `cmd alt 6` Zeile einrücken
 
-`cmd alt 6` Zeile einrücken
-
-`cmd alt 8` Zeile aktivieren
-
-`cmd alt 9` Zeile deaktivieren («auskommentieren»)
+`cmd alt 8` Zeile aktivieren,  `cmd alt 9` Zeile deaktivieren («auskommentieren»)
 
 `cmd Pfeiltaste` Wert ausgewählter Zahl ändern
 
@@ -83,7 +79,7 @@
 
 `a <= b` a ist kleiner gleich als b
 
-Vergleichsoperatoren eignen sich um eine Bedinung zu formulieren (bsp. für ein if-Statement): 
+Vergleichsoperatoren kannst du if-else-Statements formulieren:
 
     a = 2
     b = 3
@@ -149,6 +145,7 @@ Output: lorem ipsum
 Output: 0 1 2 3 4 
 
 ## Bedingungen
+
 Die if-Anweisung wird benutzt, um eine Bedingung zu überprüfen. Falls diese Bedingung erfüllt ist, wird ein Block von Anweisungen ausgeführt (der so genannte if-Block), andernfalls wird ein anderer Block von Anweisungen ausgeführt (elif oder else)
 
 Allgemeine Form:
@@ -173,34 +170,4 @@ Beispiel:
 
 … die nicht als Variablen verwendet werden dürfen:
 
-- and
-- del
-- from
-- not
-- while
-- as
-- elif
-- global
-- or
-- with
-- assert
-- else
-- if
-- pass
-- yield
-- break
-- except
-- import
-- print
-- class
-- exec
-- in
-- raise
-- continue
-- finally
-- is
-- return
-- def
-- for
-- lambda
-- try
+and, del, from, not, while, as, elif, global, or, with, assert, else, if, pass, yield, break, except, import, print, class, exec, in, raise, continue, finally, is, return, def, for, lambda, try
