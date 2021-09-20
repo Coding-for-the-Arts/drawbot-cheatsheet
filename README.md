@@ -79,7 +79,7 @@
 
 `a <= b` a ist kleiner gleich als b
 
-Vergleichsoperatoren kannst du if-else-Statements formulieren:
+Mit Vergleichsoperatoren kannst du if-else-Statements formulieren:
 
     a = 2
     b = 3
